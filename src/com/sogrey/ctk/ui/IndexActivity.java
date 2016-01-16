@@ -13,27 +13,18 @@ import com.sogrey.frame.activity.base.BaseActivity;
  */
 public class IndexActivity extends BaseActivity {
 
-	/* (non-Javadoc)
-	 * @see com.sogrey.frame.activity.base.BaseActivity#setLayout()
-	 */
 	@Override
 	public int setLayout() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.sogrey.frame.activity.base.BaseActivity#initViews()
-	 */
 	@Override
 	public void initViews() {
 		// TODO Auto-generated method stub
 
 	}
 
-	/* (non-Javadoc)
-	 * @see com.sogrey.frame.activity.base.BaseActivity#initDatas()
-	 */
 	@Override
 	public void initDatas() {
 		// TODO Auto-generated method stub

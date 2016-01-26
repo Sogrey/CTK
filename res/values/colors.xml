@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="s_white">#ffffffff</color>
+    <color name="s_black">#ff000000</color>
+    <color name="s_drak_black">#33000000</color>
+    <color name="s_red">#ffff0000</color>
+    <color name="s_dark_red">#ffcc0000</color>
+    <color name="s_green">#ff00ff00</color>
+    <color name="s_yellow">#ffffff00</color>
+    <color name="s_dark_green">#ff16b31a</color>
+    <color name="s_blue">#ff0000ff</color>
+    <color name="s_spuer_light_gray">#ffe9e9e9</color>
+    <color name="s_light_gray">#ffcccccc</color>
+    <color name="s_gray">#ffaaaaaa</color>
+    <color name="s_dark_gray">#ff777574</color>
+    <color name="s_dark_gray2">#ff666666</color>
+    <color name="s_transparent">#00000000</color>
+    <color name="s_light_blue">#6593cb</color>
+    <color name="btn_blue_bg_sel_f">#ff13B7EC</color>
+    <color name="bg_gray">#ffd8d8d8</color>
+    <color name="black_20">#33000000</color>
+     <color name="clr_progress_dialog_bg">#00000000</color>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="frontsize_ssslarge">108sp</dimen>
+    <dimen name="frontsize_superlarge">48sp</dimen>
+    <dimen name="frontsize_large">24sp</dimen>
+    <dimen name="frontsize_tinylarge">21sp</dimen>
+    <dimen name="frontsize_normal">18sp</dimen>
+    <dimen name="frontsize_small">15sp</dimen>
+    <dimen name="frontsize_supersmall">12sp</dimen>
+    <dimen name="frontsize_ssSmall">8sp</dimen>
+    <dimen name="frontsize_sssSmall">4sp</dimen>
+    <dimen name="historyscore_tb">10dp</dimen>
+
+</resources>

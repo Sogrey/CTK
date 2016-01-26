@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.sogrey.frame.views.PhotoExpolor.view.ImageViewTouchViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"/>
+    
+     <ImageView
+        android:id="@+id/img_imagepre_back"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:padding="10dp"
+        android:src="@drawable/button_back_24px" />
+
+</FrameLayout>

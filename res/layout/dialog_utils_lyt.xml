@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="提示信息"
+        android:textColor="@color/s_black"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lyt_dialog_title_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#66D1D1D1"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lyt_dialog_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="80dp"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#D1D1D1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_dialog_cancle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_left_selector"
+            android:text="放弃"
+            android:textColor="@color/s_black" />
+
+        <View
+            android:id="@+id/view_dialog_cancle"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#D1D1D1" />
+         <Button
+            android:id="@+id/btn_dialog_ignore"  android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_center_selector"
+            android:text="忽略"
+            android:textColor="@color/s_black" />
+
+        <View
+            android:id="@+id/view_dialog_ignore" android:visibility="gone"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#D1D1D1" />
+
+        <Button
+            android:id="@+id/btn_dialog_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_right_selector"
+            android:text="确定"
+            android:textColor="@color/s_black" />
+    </LinearLayout>
+
+</LinearLayout>

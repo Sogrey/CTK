@@ -4,26 +4,16 @@
  */
 package com.sogrey.frame.views;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import android.content.ClipData;
-import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.View.OnLongClickListener;
 import android.view.ViewGroup.LayoutParams;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
@@ -31,7 +21,6 @@ import android.widget.TextView;
 import com.sogrey.ctk.R;
 import com.sogrey.ctk.app.BaseApplication;
 import com.sogrey.frame.utils.DensityUtils;
-import com.sogrey.frame.utils.ToastUtil;
 
 /**
  * @author Sogrey 2015年3月18日

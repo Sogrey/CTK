@@ -12,19 +12,8 @@ android.support.v4.app.FragmentTabHost
 android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
 android.support.v4.app.FragmentTabHost$SavedState
 android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v4.app.NotificationCompatSideChannelService
-android.support.v4.content.FileProvider
 android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
 android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
-android.support.v4.content.WakefulBroadcastReceiver
-android.support.v4.media.MediaMetadataCompat
-android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
-android.support.v4.media.RatingCompat
-android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
-android.support.v4.media.session.MediaSessionCompat$Token
-android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
-android.support.v4.media.session.PlaybackStateCompat
-android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
 android.support.v4.view.PagerTabStrip
 android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
 android.support.v4.view.PagerTitleStrip
@@ -36,95 +25,6 @@ android.support.v4.view.ViewPager$LayoutParams
 android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
 android.support.v4.view.ViewPager$SavedState
 android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v4.widget.ContentLoadingProgressBar
-android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
-android.support.v4.widget.DrawerLayout
-android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
-android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
-android.support.v4.widget.DrawerLayout$LayoutParams
-android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
-android.support.v4.widget.DrawerLayout$SavedState
-android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v4.widget.SlidingPaneLayout
-android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
-android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
-android.support.v4.widget.SlidingPaneLayout$LayoutParams
-android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
-android.support.v4.widget.SlidingPaneLayout$SavedState
-android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v4.widget.SwipeRefreshLayout
-android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
-android.support.v7.app.ActionBar$LayoutParams
-android.support.v7.app.ActionBar$LayoutParams: ActionBar$LayoutParams(android.content.Context,android.util.AttributeSet)
-android.support.v7.app.ActionBarActivity
-android.support.v7.app.ActionBarActivity: ActionBarActivity()
-android.support.v7.internal.view.menu.ActionMenuItemView
-android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context)
-android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.internal.view.menu.ActionMenuPresenter$SavedState
-android.support.v7.internal.view.menu.ActionMenuPresenter$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.internal.view.menu.ActionMenuView
-android.support.v7.internal.view.menu.ActionMenuView: ActionMenuView(android.content.Context)
-android.support.v7.internal.view.menu.ActionMenuView: ActionMenuView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.view.menu.ActionMenuView$LayoutParams
-android.support.v7.internal.view.menu.ActionMenuView$LayoutParams: ActionMenuView$LayoutParams(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.view.menu.ExpandedMenuView
-android.support.v7.internal.view.menu.ExpandedMenuView: ExpandedMenuView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.view.menu.ListMenuItemView
-android.support.v7.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context)
-android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.internal.widget.AbsSpinnerICS$SavedState
-android.support.v7.internal.widget.AbsSpinnerICS$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.internal.widget.ActionBarContainer
-android.support.v7.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context)
-android.support.v7.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ActionBarContextView
-android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context)
-android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.internal.widget.ActionBarOverlayLayout
-android.support.v7.internal.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context)
-android.support.v7.internal.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ActionBarView
-android.support.v7.internal.widget.ActionBarView: ActionBarView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ActionBarView$HomeView
-android.support.v7.internal.widget.ActionBarView$HomeView: ActionBarView$HomeView(android.content.Context)
-android.support.v7.internal.widget.ActionBarView$HomeView: ActionBarView$HomeView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ActionBarView$SavedState
-android.support.v7.internal.widget.ActionBarView$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.internal.widget.ActivityChooserView
-android.support.v7.internal.widget.ActivityChooserView: ActivityChooserView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ActivityChooserView: ActivityChooserView(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.internal.widget.CompatTextView
-android.support.v7.internal.widget.CompatTextView: CompatTextView(android.content.Context)
-android.support.v7.internal.widget.CompatTextView: CompatTextView(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.CompatTextView: CompatTextView(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.internal.widget.LinearLayoutICS
-android.support.v7.internal.widget.LinearLayoutICS: LinearLayoutICS(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ListPopupWindow
-android.support.v7.internal.widget.ListPopupWindow: ListPopupWindow(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ListPopupWindow: ListPopupWindow(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.internal.widget.NativeActionModeAwareLayout
-android.support.v7.internal.widget.NativeActionModeAwareLayout: NativeActionModeAwareLayout(android.content.Context,android.util.AttributeSet)
-android.support.v7.internal.widget.ProgressBarICS$SavedState
-android.support.v7.internal.widget.ProgressBarICS$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.internal.widget.ScrollingTabContainerView$TabView
-android.support.v7.internal.widget.ScrollingTabContainerView$TabView: ScrollingTabContainerView$TabView(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.SearchView
-android.support.v7.widget.SearchView: SearchView(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.SearchView$SearchAutoComplete
-android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context)
-android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet,int)
-com.android.volley.Request$Priority: com.android.volley.Request$Priority[] values()
-com.android.volley.Request$Priority: com.android.volley.Request$Priority valueOf(java.lang.String)
-com.android.volley.toolbox.NetworkImageView
-com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet)
-com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet,int)
 com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy[] values()
 com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy valueOf(java.lang.String)
 com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy[] values()
@@ -147,7 +47,10 @@ com.sogrey.ctk.MainActivity
 com.sogrey.ctk.MainActivity: MainActivity()
 com.sogrey.ctk.app.BaseApplication
 com.sogrey.ctk.app.BaseApplication: BaseApplication()
+com.sogrey.ctk.ui.IndexActivity
+com.sogrey.ctk.ui.WelcomeActivity
 com.sogrey.frame.activity.base.BaseActivity
+com.sogrey.frame.activity.base.BaseActivity: BaseActivity()
 com.sogrey.frame.utils.NetUtils$NetState: com.sogrey.frame.utils.NetUtils$NetState[] values()
 com.sogrey.frame.utils.NetUtils$NetState: com.sogrey.frame.utils.NetUtils$NetState valueOf(java.lang.String)
 com.sogrey.frame.views.MatrixImageView

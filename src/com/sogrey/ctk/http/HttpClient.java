@@ -5,18 +5,18 @@
 package com.sogrey.ctk.http;
 
 import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.util.Iterator;
 import java.util.Map;
+
+import android.content.Context;
 
 import com.baidu.apistore.sdk.ApiCallBack;
 import com.baidu.apistore.sdk.ApiStoreSDK;
 import com.baidu.apistore.sdk.network.Parameters;
 import com.sogrey.frame.utils.LogUtil;
 import com.sogrey.frame.utils.NetUtils;
-import com.sogrey.frame.utils.ToastUtil;
-
-import android.content.Context;
 
 /**
  * @author Sogrey
@@ -63,13 +63,12 @@ public class HttpClient {
 		}
 		switch (flag) {
 		case 1:
-
-			// GatDataFromNetwork(flag, ApiStoreSDK.GET, "", _listener, params);
+			//TODO 
 			break;
 
 		default:
 			GatDataFromNetwork(flag, ApiStoreSDK.GET,
-					"http://apis.baidu.com/apistore/weatherservice/cityinfo",
+					"http://apis.baidu.com/apistore/weatherservice/citylist",
 					_listener, params);
 			break;
 		}
@@ -93,13 +92,13 @@ public class HttpClient {
 			return para;
 		}
 		// URL 编码
-		for (int i = 0; i < params.length; i++) {
-			try {
-				params[i] = URLEncoder.encode(params[i], "UTF-8");
-			} catch (UnsupportedEncodingException e) {
-				e.printStackTrace();
-			}
-		}
+//		for (int i = 0; i < params.length; i++) {
+//			try {
+//				params[i] = URLEncoder.encode(params[i], "UTF-8");
+//			} catch (UnsupportedEncodingException e) {
+//				e.printStackTrace();
+//			}
+//		}
 
 		switch (flag) {
 		case 1:

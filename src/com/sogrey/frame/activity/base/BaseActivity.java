@@ -50,13 +50,6 @@ public abstract class BaseActivity extends FragmentActivity {
 	@Override
 	protected void onResume() {
 		super.onResume();
-//		if(getWindow().getAttributes().softInputMode==WindowManager.LayoutParams.SOFT_INPUT_STATE_UNSPECIFIED)
-//		 {
-//		 //隐藏软键盘
-//		 getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-//		 getWindow().getAttributes().softInputMode=WindowManager.LayoutParams.SOFT_INPUT_STATE_UNSPECIFIED;
-//		 } 
-		
 		WindowManager.LayoutParams params = getWindow().getAttributes();
         if (params.softInputMode == WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE) {
             // 隐藏软键盘
@@ -64,11 +57,6 @@ public abstract class BaseActivity extends FragmentActivity {
                     WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
             params.softInputMode = WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN;
         }
-		
-//		// 隐藏输入法
-//		InputMethodManager imm = (InputMethodManager) getApplicationContext().getSystemService(Context.INPUT_METHOD_SERVICE);
-//		// 显示或者隐藏输入法
-//		imm.toggleSoftInput(0, InputMethodManager.HIDE_NOT_ALWAYS);
 	}
 
 	/**

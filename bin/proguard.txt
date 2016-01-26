@@ -46,10 +46,10 @@
 # view res/layout/abc_search_view.xml #generated:85
 -keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
 
-# view AndroidManifest.xml #generated:17
+# view AndroidManifest.xml #generated:24
 -keep class com.sogrey.ctk.MainActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:11
+# view AndroidManifest.xml #generated:18
 -keep class com.sogrey.ctk.app.BaseApplication { <init>(...); }
 
 # view res/layout/act_photoexpolor.xml #generated:6

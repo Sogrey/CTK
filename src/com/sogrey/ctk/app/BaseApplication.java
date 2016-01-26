@@ -7,6 +7,7 @@ import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
+import com.baidu.apistore.sdk.ApiStoreSDK;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache;
@@ -16,6 +17,7 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import com.sogrey.ctk.BuildConfig;
 import com.sogrey.ctk.R;
+import com.sogrey.ctk.utils.Constant;
 import com.sogrey.frame.utils.FileUtil;
 
 /**
@@ -39,6 +41,7 @@ public class BaseApplication extends Application {
 	public long dataFrist = 0l;
 	@Override
 	public void onCreate() {
+		ApiStoreSDK.init(this, Constant.api_key/*您的apikey*/);
 		super.onCreate();
 		DisplayMetrics mDisplayMetrics = new DisplayMetrics();
 		WindowManager mWm = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
